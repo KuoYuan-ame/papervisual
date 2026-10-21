@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "title": "Iterative Sampling Plan",
+  "claim": "A synthetic planning loop revises the next sampling round after review.",
+  "archetype": "auto",
+  "width": 1200,
+  "height": 760,
+  "nodes": [
+    {
+      "id": "plan",
+      "label": "Plan sampling",
+      "role": "input",
+      "order": 1,
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "collect",
+      "label": "Collect samples",
+      "role": "process",
+      "order": 2,
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "evaluate",
+      "label": "Evaluate coverage",
+      "role": "evidence",
+      "order": 3,
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "revise",
+      "label": "Review and revise",
+      "role": "output",
+      "order": 4,
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    }
+  ],
+  "edges": [
+    {
+      "from": "plan",
+      "to": "collect",
+      "relation": "sequence",
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "from": "collect",
+      "to": "evaluate",
+      "relation": "data",
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "from": "evaluate",
+      "to": "revise",
+      "relation": "sequence",
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "from": "revise",
+      "to": "plan",
+      "relation": "feedback",
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    }
+  ],
+  "claim_source": "Original synthetic example; illustrative software fixture",
+  "review_status": "confirmed"
+}

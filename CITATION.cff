@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use PaperVisual, please cite the project repository."
+title: "PaperVisual"
+url: "https://github.com/KuoYuan-ame/papervisual"
+type: software
+authors:
+  - name: "PaperVisual contributors"
+version: 0.1.0
+date-released: 2026-10-19
+license: MIT

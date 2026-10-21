@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "title": "Adaptive Field Monitoring",
+  "claim": "A five-stage workflow turns distributed observations into reviewed alerts.",
+  "archetype": "auto",
+  "width": 1200,
+  "height": 600,
+  "nodes": [
+    {
+      "id": "sensors",
+      "label": "Field observations",
+      "detail": "temperature, moisture",
+      "role": "input",
+      "order": 1,
+      "source": "Synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "clean",
+      "label": "Quality screening",
+      "detail": "flag missing values",
+      "role": "process",
+      "order": 2,
+      "source": "Synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "model",
+      "label": "Risk estimation",
+      "detail": "review threshold",
+      "role": "evidence",
+      "order": 3,
+      "source": "Synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "review",
+      "label": "Expert review",
+      "detail": "confirm alert",
+      "role": "process",
+      "order": 4,
+      "source": "Synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "action",
+      "label": "Field response",
+      "detail": "document action",
+      "role": "output",
+      "order": 5,
+      "source": "Synthetic example",
+      "review_status": "confirmed"
+    }
+  ],
+  "edges": [
+    {
+      "from": "sensors",
+      "to": "clean",
+      "relation": "data",
+      "review_status": "confirmed",
+      "source": "Synthetic example"
+    },
+    {
+      "from": "clean",
+      "to": "model",
+      "relation": "sequence",
+      "review_status": "confirmed",
+      "source": "Synthetic example"
+    },
+    {
+      "from": "model",
+      "to": "review",
+      "relation": "sequence",
+      "review_status": "confirmed",
+      "source": "Synthetic example"
+    },
+    {
+      "from": "review",
+      "to": "action",
+      "relation": "sequence",
+      "review_status": "confirmed",
+      "source": "Synthetic example"
+    }
+  ],
+  "claim_source": "Original synthetic example; illustrative software fixture",
+  "review_status": "confirmed"
+}

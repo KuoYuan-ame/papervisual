@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "language": "en",
+  "style": "reference",
+  "archetype": "auto",
+  "width": 1500,
+  "height": 930,
+  "title": "Evidence-guided Field Alerts",
+  "claim": "A synthetic monitoring workflow separates screening, estimation and reviewed outputs.",
+  "caption": "Figure: A synthetic monitoring architecture. Observations and quality flags enter screening; screened inputs and contextual covariates feed risk estimation. Candidate alerts and reviewed decisions remain distinct, and reviewer rationale is archived. This is an illustrative software example, not an empirical result.",
+  "panel_labels": {
+    "sources": "Inputs and Context",
+    "screening": "Quality Screening",
+    "estimation": "Risk Estimation",
+    "decisions": "Reviewed Outputs"
+  },
+  "panel_descriptors": {
+    "sources": "Signals to monitor",
+    "screening": "Remove unusable records",
+    "estimation": "Combine observations and context",
+    "decisions": "Candidates require human review"
+  },
+  "legend_labels": {
+    "blue": "Workflow / decision",
+    "green": "Observed inputs",
+    "orange": "Proposed outputs",
+    "red": "Review required"
+  },
+  "nodes": [
+    {
+      "id": "observations",
+      "label": "Field observations",
+      "detail": "temperature and moisture",
+      "role": "input",
+      "panel": "sources",
+      "annotations": [
+        "Distributed sensors"
+      ],
+      "order": 0,
+      "source": "Original synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "flags",
+      "label": "Quality flags",
+      "detail": "missing-value indicators",
+      "role": "evidence",
+      "panel": "sources",
+      "annotations": [
+        "Quality metadata"
+      ],
+      "order": 1,
+      "source": "Original synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "context",
+      "label": "Weather context",
+      "detail": "site-level covariates",
+      "role": "context",
+      "panel": "sources",
+      "annotations": [
+        "Context only"
+      ],
+      "order": 2,
+      "source": "Original synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "screen",
+      "label": "Quality screening",
+      "detail": "retain usable observations",
+      "role": "process",
+      "panel": "screening",
+      "annotations": [
+        "Apply quality criteria"
+      ],
+      "order": 3,
+      "source": "Original synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "estimate",
+      "label": "Risk estimation",
+      "detail": "hypothetical scoring model",
+      "role": "core",
+      "panel": "estimation",
+      "annotations": [
+        "Illustrative model only"
+      ],
+      "order": 4,
+      "source": "Original synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "alert",
+      "label": "Candidate alert",
+      "detail": "apply a review threshold",
+      "role": "output",
+      "panel": "decisions",
+      "annotations": [
+        "Requires expert review"
+      ],
+      "order": 5,
+      "source": "Original synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "review",
+      "label": "Reviewed decision",
+      "detail": "record reviewer rationale",
+      "role": "output",
+      "panel": "decisions",
+      "annotations": [
+        "Human decision"
+      ],
+      "order": 6,
+      "source": "Original synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "record",
+      "label": "Decision record",
+      "detail": "archive the reviewed action",
+      "role": "output",
+      "panel": "decisions",
+      "annotations": [
+        "Traceable record"
+      ],
+      "order": 7,
+      "source": "Original synthetic example",
+      "review_status": "confirmed"
+    }
+  ],
+  "edges": [
+    {
+      "from": "observations",
+      "to": "screen",
+      "relation": "data",
+      "label": "observations",
+      "review_status": "confirmed",
+      "source": "Original synthetic example"
+    },
+    {
+      "from": "flags",
+      "to": "screen",
+      "relation": "data",
+      "label": "quality flags",
+      "review_status": "confirmed",
+      "source": "Original synthetic example"
+    },
+    {
+      "from": "screen",
+      "to": "estimate",
+      "relation": "data",
+      "label": "screened input",
+      "review_status": "confirmed",
+      "source": "Original synthetic example"
+    },
+    {
+      "from": "context",
+      "to": "estimate",
+      "relation": "data",
+      "label": "covariates",
+      "review_status": "confirmed",
+      "source": "Original synthetic example"
+    },
+    {
+      "from": "estimate",
+      "to": "alert",
+      "relation": "data",
+      "label": "threshold",
+      "review_status": "confirmed",
+      "source": "Original synthetic example"
+    },
+    {
+      "from": "estimate",
+      "to": "review",
+      "relation": "data",
+      "label": "score review",
+      "review_status": "confirmed",
+      "source": "Original synthetic example"
+    },
+    {
+      "from": "review",
+      "to": "record",
+      "relation": "sequence",
+      "label": "archive",
+      "review_status": "confirmed",
+      "source": "Original synthetic example"
+    }
+  ],
+  "notes": [
+    "All content is hypothetical. No manuscript, source screenshot or third-party icon is bundled."
+  ],
+  "claim_source": "Original synthetic example; illustrative software fixture",
+  "review_status": "confirmed"
+}

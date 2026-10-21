@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "papervisual"
+version = "0.1.0"
+description = "Create editable graphical abstracts and visual summaries from reviewed research-paper briefs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "PaperVisual contributors" }]
+keywords = ["graphical-abstract", "paper-visualization", "svg", "research", "diagram"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Science/Research",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/KuoYuan-ame/papervisual"
+Issues = "https://github.com/KuoYuan-ame/papervisual/issues"
+
+[project.optional-dependencies]
+raster = ["CairoSVG>=2.7"]
+math = ["matplotlib>=3.8"]
+audit = ["CairoSVG>=2.7", "matplotlib>=3.8", "fonttools>=4.50", "PyMuPDF>=1.24,<2"]
+
+[project.scripts]
+papervisual = "paperfig.cli:main"
+paperfig = "paperfig.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

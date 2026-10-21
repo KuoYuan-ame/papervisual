@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">Seasonal Sampling Design</title>
+<desc id="desc">Repeated measurements compare baseline, intervention, and follow-up conditions.</desc>
+<defs><marker id="arrow-sequence" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#444444"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g id="header" font-family="Arial, Helvetica, sans-serif">
+<text x="600" y="42" text-anchor="middle" font-size="22" font-weight="700" fill="#26384d">Seasonal Sampling Design</text>
+<text x="600" y="68" text-anchor="middle" font-size="13" fill="#59636e">Repeated measurements compare baseline, intervention, and follow-up conditions.</text>
+</g>
+<g id="archetype" data-archetype="timeline"/>
+<g id="edges" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path id="edge-0" data-from="baseline" data-to="intervention" data-relation="sequence" data-review-status="confirmed" data-source="Synthetic example" d="M 280.0 315.0 L 357.7 315.0" stroke="#444444" stroke-width="2" opacity="1" marker-end="url(#arrow-sequence)"/>
+<path id="edge-1" data-from="intervention" data-to="midpoint" data-relation="sequence" data-review-status="confirmed" data-source="Synthetic example" d="M 556.7 315.0 L 634.3 315.0" stroke="#444444" stroke-width="2" opacity="1" marker-end="url(#arrow-sequence)"/>
+<path id="edge-2" data-from="midpoint" data-to="followup" data-relation="sequence" data-review-status="confirmed" data-source="Synthetic example" d="M 833.3 315.0 L 911.0 315.0" stroke="#444444" stroke-width="2" opacity="1" marker-end="url(#arrow-sequence)"/>
+</g>
+<g id="nodes" font-family="Arial, Helvetica, sans-serif">
+<g id="node-baseline" data-role="input" data-review-status="confirmed" data-source="Synthetic example" opacity="1">
+<rect x="90.0" y="261.0" width="190.0" height="108.0" rx="8" fill="#e8f1f8" stroke="#376a8e" stroke-width="2"/>
+<text x="185.0" y="306.0" text-anchor="middle" font-size="15" font-weight="700" fill="#26384d">Baseline</text>
+<text x="185.0" y="325.0" text-anchor="middle" font-size="11" fill="#626d78">before intervention</text>
+<title>Source: Synthetic example</title>
+</g>
+<g id="node-intervention" data-role="process" data-review-status="confirmed" data-source="Synthetic example" opacity="1">
+<rect x="366.7" y="261.0" width="190.0" height="108.0" rx="8" fill="#edf1f7" stroke="#315b9b" stroke-width="2"/>
+<text x="461.7" y="306.0" text-anchor="middle" font-size="15" font-weight="700" fill="#26384d">Intervention</text>
+<text x="461.7" y="325.0" text-anchor="middle" font-size="11" fill="#626d78">assigned treatment</text>
+<title>Source: Synthetic example</title>
+</g>
+<g id="node-midpoint" data-role="evidence" data-review-status="confirmed" data-source="Synthetic example" opacity="1">
+<rect x="643.3" y="261.0" width="190.0" height="108.0" rx="8" fill="#e9f2df" stroke="#558d3b" stroke-width="2"/>
+<text x="738.3" y="306.0" text-anchor="middle" font-size="15" font-weight="700" fill="#26384d">Midpoint sampling</text>
+<text x="738.3" y="325.0" text-anchor="middle" font-size="11" fill="#626d78">predefined measures</text>
+<title>Source: Synthetic example</title>
+</g>
+<g id="node-followup" data-role="output" data-review-status="confirmed" data-source="Synthetic example" opacity="1">
+<rect x="920.0" y="261.0" width="190.0" height="108.0" rx="8" fill="#fff0df" stroke="#d56b00" stroke-width="2"/>
+<text x="1015.0" y="306.0" text-anchor="middle" font-size="15" font-weight="700" fill="#26384d">Follow-up</text>
+<text x="1015.0" y="325.0" text-anchor="middle" font-size="11" fill="#626d78">outcome assessment</text>
+<title>Source: Synthetic example</title>
+</g>
+</g>
+<g id="relation-legend" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#59636e">
+<path d="M 50.0 549.0 h 24" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow-sequence)"/><text x="84.0" y="552.0">sequence</text>
+</g>
+</svg>

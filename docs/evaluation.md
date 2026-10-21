@@ -1,0 +1,11 @@
+# Evaluation scope
+
+The examples include six original synthetic briefs covering pipeline, comparison, hub-spoke, timeline, mechanism map and feedback loop, plus a seventh brief exercising the compact reference theme and an eighth synthetic algebra example for the layered theory style and mathematical typesetting. These exercise different relationship types and every supported layout without redistributing paper figures or manuscripts. The reference example uses different node IDs and a non-mathematical monitoring scenario; it is a rendering test, not a second real-paper understanding test.
+
+The recommendation regression tests expect `pipeline` for the field workflow, `compare` for inspection designs, `hub_spoke` for the repository, `timeline` for sampling, `loop` for iterative planning, and `hub_spoke` for the coating example. The latter is explicitly overridden to `mechanism` to demonstrate a user choice: the recommender proposes a shared response node, while the author may prefer a layered evidence map. A layout name never establishes causal evidence.
+
+Tests cover structural errors, dangling edges, source-preserving SVG, editable labels, geometric bounds, arrow visibility, wrapping, explicit sharing consent, malformed model output, mandatory review flags, and batch failure reporting. The optional adapter is tested with mocked responses; no live model accuracy study is claimed.
+
+This is a software regression set, not a benchmark of general paper understanding. There is no real-paper extraction score or expert scientific blind review. Before making a broad automatic-adaptation claim, future work must evaluate source fidelity, entity coverage, relationship errors, unsupported causal links, and author corrections on a licensed, independently reviewed paper corpus.
+
+Scientific release regression tests strip all source/review fields and assert explicit source failures and pending declarations; inject missing glyphs, overlapping text, intersecting edges and labels; test physical pixel/point contracts, unsupported formulas, acyclic proof layout and deterministic math rerendering. Optional measured audits depend on installed fonts and libraries. A local private mathematical-paper brief replay checks 180/297 mm exports; it is not a public dataset, fresh extraction evaluation or expert scientific review.

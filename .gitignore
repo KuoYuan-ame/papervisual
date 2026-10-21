@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+work/
+*.png
+!examples/rendered/*.png
+!skills/papervisual/assets/*.png
+
+# Keep locally exported PDFs out of the public repository.
+examples/rendered/*.pdf

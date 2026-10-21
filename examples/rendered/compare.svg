@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">Reviewing Two Inspection Designs</title>
+<desc id="desc">A synthetic comparison separates standard inspection from assisted inspection.</desc>
+<defs><marker id="arrow-sequence" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#444444"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g id="header" font-family="Arial, Helvetica, sans-serif">
+<text x="600" y="42" text-anchor="middle" font-size="22" font-weight="700" fill="#26384d">Reviewing Two Inspection Designs</text>
+<text x="600" y="68" text-anchor="middle" font-size="13" fill="#59636e">A synthetic comparison separates standard inspection from assisted inspection.</text>
+</g>
+<g id="archetype" data-archetype="compare"/>
+<g id="edges" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path id="edge-0" data-from="standard_input" data-to="standard_review" data-relation="sequence" data-review-status="confirmed" data-source="Synthetic design brief" d="M 185.0 208.0 L 185.0 413.0" stroke="#444444" stroke-width="2" opacity="1" marker-end="url(#arrow-sequence)"/>
+<path id="edge-1" data-from="assisted_input" data-to="assisted_review" data-relation="sequence" data-review-status="confirmed" data-source="Synthetic design brief" d="M 1015.0 208.0 L 1015.0 413.0" stroke="#444444" stroke-width="2" opacity="1" marker-end="url(#arrow-sequence)"/>
+<path id="edge-2" data-from="standard_review" data-to="assisted_review" data-relation="contrast" data-review-status="confirmed" data-source="Synthetic design brief" d="M 280.0 476.0 L 920.0 476.0" stroke="#d56b00" stroke-width="2" opacity="1" stroke-dasharray="7 5"/>
+<text x="600.0" y="471.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#d56b00">compare designs</text>
+</g>
+<g id="nodes" font-family="Arial, Helvetica, sans-serif">
+<g id="node-standard_input" data-role="input" data-review-status="confirmed" data-source="Synthetic design brief" opacity="1">
+<rect x="90.0" y="100.0" width="190.0" height="108.0" rx="8" fill="#e8f1f8" stroke="#376a8e" stroke-width="2"/>
+<text x="185.0" y="154.0" text-anchor="middle" font-size="15" font-weight="700" fill="#26384d">Standard inspection</text>
+<title>Source: Synthetic design brief</title>
+</g>
+<g id="node-standard_review" data-role="process" data-review-status="confirmed" data-source="Synthetic design brief" opacity="1">
+<rect x="90.0" y="422.0" width="190.0" height="108.0" rx="8" fill="#edf1f7" stroke="#315b9b" stroke-width="2"/>
+<text x="185.0" y="476.0" text-anchor="middle" font-size="15" font-weight="700" fill="#26384d">Manual review</text>
+<title>Source: Synthetic design brief</title>
+</g>
+<g id="node-assisted_input" data-role="input" data-review-status="confirmed" data-source="Synthetic design brief" opacity="1">
+<rect x="920.0" y="100.0" width="190.0" height="108.0" rx="8" fill="#e8f1f8" stroke="#376a8e" stroke-width="2"/>
+<text x="1015.0" y="154.0" text-anchor="middle" font-size="15" font-weight="700" fill="#26384d">Assisted inspection</text>
+<title>Source: Synthetic design brief</title>
+</g>
+<g id="node-assisted_review" data-role="process" data-review-status="confirmed" data-source="Synthetic design brief" opacity="1">
+<rect x="920.0" y="422.0" width="190.0" height="108.0" rx="8" fill="#edf1f7" stroke="#315b9b" stroke-width="2"/>
+<text x="1015.0" y="476.0" text-anchor="middle" font-size="15" font-weight="700" fill="#26384d">Assisted review</text>
+<title>Source: Synthetic design brief</title>
+</g>
+</g>
+<g id="relation-legend" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#59636e">
+<path d="M 50.0 549.0 h 24" stroke="#d56b00" stroke-width="1.5" stroke-dasharray="7 5"/><text x="84.0" y="552.0">contrast</text>
+<path d="M 325.0 549.0 h 24" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow-sequence)"/><text x="359.0" y="552.0">sequence</text>
+</g>
+</svg>

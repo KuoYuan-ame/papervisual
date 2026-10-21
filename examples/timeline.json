@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "title": "Seasonal Sampling Design",
+  "claim": "Repeated measurements compare baseline, intervention, and follow-up conditions.",
+  "archetype": "timeline",
+  "width": 1200,
+  "height": 600,
+  "nodes": [
+    {
+      "id": "baseline",
+      "label": "Baseline",
+      "detail": "before intervention",
+      "role": "input",
+      "order": 1,
+      "source": "Synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "intervention",
+      "label": "Intervention",
+      "detail": "assigned treatment",
+      "role": "process",
+      "order": 2,
+      "source": "Synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "midpoint",
+      "label": "Midpoint sampling",
+      "detail": "predefined measures",
+      "role": "evidence",
+      "order": 3,
+      "source": "Synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "followup",
+      "label": "Follow-up",
+      "detail": "outcome assessment",
+      "role": "output",
+      "order": 4,
+      "source": "Synthetic example",
+      "review_status": "confirmed"
+    }
+  ],
+  "edges": [
+    {
+      "from": "baseline",
+      "to": "intervention",
+      "relation": "sequence",
+      "review_status": "confirmed",
+      "source": "Synthetic example"
+    },
+    {
+      "from": "intervention",
+      "to": "midpoint",
+      "relation": "sequence",
+      "review_status": "confirmed",
+      "source": "Synthetic example"
+    },
+    {
+      "from": "midpoint",
+      "to": "followup",
+      "relation": "sequence",
+      "review_status": "confirmed",
+      "source": "Synthetic example"
+    }
+  ],
+  "claim_source": "Original synthetic example; illustrative software fixture",
+  "review_status": "confirmed"
+}

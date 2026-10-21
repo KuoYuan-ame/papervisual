@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "title": "Shared Measurement Repository",
+  "claim": "Four measurement sources connect to one shared repository in a synthetic design.",
+  "archetype": "auto",
+  "width": 1200,
+  "height": 760,
+  "nodes": [
+    {
+      "id": "repository",
+      "label": "Shared repository",
+      "role": "core",
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "field",
+      "label": "Field records",
+      "role": "input",
+      "order": 1,
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "lab",
+      "label": "Lab records",
+      "role": "input",
+      "order": 2,
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "images",
+      "label": "Image records",
+      "role": "input",
+      "order": 3,
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "logs",
+      "label": "Instrument logs",
+      "role": "input",
+      "order": 4,
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    }
+  ],
+  "edges": [
+    {
+      "from": "field",
+      "to": "repository",
+      "relation": "data",
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "from": "lab",
+      "to": "repository",
+      "relation": "data",
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "from": "images",
+      "to": "repository",
+      "relation": "data",
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "from": "logs",
+      "to": "repository",
+      "relation": "data",
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    }
+  ],
+  "claim_source": "Original synthetic example; illustrative software fixture",
+  "review_status": "confirmed"
+}

@@ -1,0 +1,22 @@
+name: Layout or paper-type request
+description: Propose a new research logic, layout archetype, or theme.
+body:
+  - type: textarea
+    id: research_logic
+    attributes:
+      label: Research relationship to represent
+      description: Describe the entities and relationships without sharing confidential text.
+    validations:
+      required: true
+  - type: textarea
+    id: layout
+    attributes:
+      label: Expected reading path
+      placeholder: "For example, intervention → measurements → validation → boundary"
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Public or synthetic example
+      description: Do not attach copyrighted figures unless you have redistribution rights.

@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "language": "en",
+  "style": "theory",
+  "title": "A source-traceable bound and its special case",
+  "claim": "An illustrative proof map separates assumptions, a main bound and parameter specialization.",
+  "claim_source": {
+    "pages": "Synthetic example",
+    "section": "Illustrative algebra; no manuscript claim"
+  },
+  "review_status": "confirmed",
+  "width_mm": 180,
+  "min_font_pt": 8,
+  "dpi": 300,
+  "caption": "Original synthetic algebra example. Blue arrows: proof inputs. Orange arrow: a parameter specialization. Formulas retain their TeX source for rerendering.",
+  "nodes": [
+    {
+      "id": "setup",
+      "label": "Admissible inputs",
+      "detail": "Positive real numbers x and y.",
+      "role": "input",
+      "source": {
+        "pages": "Synthetic example",
+        "section": "Illustrative algebra; no manuscript claim"
+      },
+      "review_status": "confirmed"
+    },
+    {
+      "id": "square",
+      "label": "Nonnegative square",
+      "formula": "(x-y)^2\\geq0",
+      "role": "evidence",
+      "source": {
+        "pages": "Synthetic example",
+        "section": "Illustrative algebra; no manuscript claim"
+      },
+      "review_status": "confirmed"
+    },
+    {
+      "id": "main",
+      "label": "Main bound",
+      "formula": "\\frac{x}{y}+\\frac{y}{x}\\geq2",
+      "assumptions": "Positive x and y.",
+      "equality": "Exactly when x = y.",
+      "emphasis": "main",
+      "role": "core",
+      "source": {
+        "pages": "Synthetic example",
+        "section": "Illustrative algebra; no manuscript claim"
+      },
+      "review_status": "confirmed"
+    },
+    {
+      "id": "case",
+      "label": "One-variable special case",
+      "formula": "t+\\frac{1}{t}\\geq2",
+      "assumptions": "Positive t.",
+      "equality": "Exactly when t = 1.",
+      "role": "output",
+      "source": {
+        "pages": "Synthetic example",
+        "section": "Illustrative algebra; no manuscript claim"
+      },
+      "review_status": "confirmed"
+    }
+  ],
+  "edges": [
+    {
+      "from": "setup",
+      "to": "main",
+      "relation": "proof_dependency",
+      "label": "Divide by a positive product",
+      "source": {
+        "pages": "Synthetic example",
+        "section": "Illustrative algebra; no manuscript claim"
+      },
+      "review_status": "confirmed"
+    },
+    {
+      "from": "square",
+      "to": "main",
+      "relation": "proof_dependency",
+      "label": "Expand and rearrange",
+      "source": {
+        "pages": "Synthetic example",
+        "section": "Illustrative algebra; no manuscript claim"
+      },
+      "review_status": "confirmed"
+    },
+    {
+      "from": "main",
+      "to": "case",
+      "relation": "specialization",
+      "label": "Set x = t and y = 1",
+      "source": {
+        "pages": "Synthetic example",
+        "section": "Illustrative algebra; no manuscript claim"
+      },
+      "review_status": "confirmed"
+    }
+  ]
+}

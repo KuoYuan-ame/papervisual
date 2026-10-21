@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "title": "Surface Treatment and Corrosion Resistance",
+  "claim": "A hypothetical coating is tested through structural, chemical, and corrosion evidence.",
+  "archetype": "mechanism",
+  "width": 1200,
+  "height": 760,
+  "nodes": [
+    {
+      "id": "treatment",
+      "label": "Surface treatment",
+      "role": "input",
+      "order": 1,
+      "source": "Synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "structure",
+      "label": "Surface structure",
+      "role": "evidence",
+      "order": 2,
+      "source": "Synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "chemistry",
+      "label": "Surface chemistry",
+      "role": "evidence",
+      "order": 1,
+      "source": "Synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "corrosion",
+      "label": "Corrosion response",
+      "role": "output",
+      "source": "Synthetic example",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "caveat",
+      "label": "Exposure duration",
+      "detail": "study boundary",
+      "role": "caveat",
+      "order": 2,
+      "source": "Synthetic example",
+      "review_status": "confirmed"
+    }
+  ],
+  "edges": [
+    {
+      "from": "treatment",
+      "to": "structure",
+      "relation": "association",
+      "review_status": "needs_review",
+      "source": "Synthetic example; verify before scientific use"
+    },
+    {
+      "from": "treatment",
+      "to": "chemistry",
+      "relation": "association",
+      "review_status": "needs_review",
+      "source": "Synthetic example; verify before scientific use"
+    },
+    {
+      "from": "structure",
+      "to": "corrosion",
+      "relation": "association",
+      "review_status": "needs_review",
+      "source": "Synthetic example; verify before scientific use"
+    },
+    {
+      "from": "chemistry",
+      "to": "corrosion",
+      "relation": "association",
+      "review_status": "needs_review",
+      "source": "Synthetic example; verify before scientific use"
+    },
+    {
+      "from": "corrosion",
+      "to": "caveat",
+      "relation": "association",
+      "label": "boundary condition",
+      "review_status": "needs_review",
+      "source": "Synthetic example"
+    }
+  ],
+  "claim_source": "Original synthetic example; illustrative software fixture",
+  "review_status": "confirmed"
+}

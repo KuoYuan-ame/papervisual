@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="986" viewBox="0 0 1007.0 662" role="img" aria-labelledby="title desc">
+<title id="title">Evidence-guided Field Alerts</title>
+<desc id="desc">A synthetic monitoring workflow separates screening, estimation and reviewed outputs.</desc>
+<defs>
+<marker id="arrow-ref" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#5e5e5e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#315b9b"/></marker>
+<marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#c80013"/></marker>
+</defs>
+<rect x="0.0" y="0.0" width="1007.0" height="662.0" fill="#ffffff" stroke="none" stroke-width="1.0"/>
+<rect x="18.0" y="10.0" width="219.0" height="110.0" fill="none" stroke="#315b9b" stroke-width="1.5" stroke-dasharray="8 5"/>
+<rect x="753.0" y="10.0" width="219.0" height="110.0" fill="none" stroke="#315b9b" stroke-width="1.5" stroke-dasharray="8 5"/>
+<g transform="translate(33.0,21.0) scale(0.580)"><path d="M 0 0 C 0 -7 34 -7 34 0 L 34 31 C 34 38 0 38 0 31 Z" fill="#8fc4ee" stroke="#315b9b" stroke-width="2"/><ellipse cx="17" cy="0" rx="17" ry="7" fill="#7eb5e3" stroke="#315b9b" stroke-width="2"/><path d="M 0 15 C 0 22 34 22 34 15 M 0 30 C 0 37 34 37 34 30" fill="none" stroke="#315b9b" stroke-width="1.6"/></g>
+<text x="83.0" y="40.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14.0" font-weight="700" fill="#315b9b"><tspan x="83.0" dy="0.0">Field observations</tspan></text>
+<g transform="translate(33.0,55.0) scale(0.580)"><path d="M 2 1 H 21 L 30 10 V 39 H 2 Z" fill="#ffffff" stroke="#4c8a37" stroke-width="2"/><path d="M 21 1 V 10 H 30" fill="#e9edf2" stroke="#4c8a37" stroke-width="2"/><path d="M 8 17 H 24 M 8 23 H 24 M 8 29 H 21" stroke="#4c8a37" stroke-width="2"/></g>
+<text x="83.0" y="74.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14.0" font-weight="700" fill="#315b9b"><tspan x="83.0" dy="0.0">Quality flags</tspan></text>
+<g transform="translate(33.0,89.0) scale(0.580)"><path d="M 7 28 L 20 9 L 37 25 L 7 28 M 20 9 L 37 25" fill="none" stroke="#777" stroke-width="2"/><circle cx="7" cy="28" r="5" fill="#abd7a0" stroke="#777777" stroke-width="2"/><circle cx="20" cy="9" r="5" fill="#f2d77f" stroke="#777777" stroke-width="2"/><circle cx="37" cy="25" r="5" fill="#f1a4a4" stroke="#777777" stroke-width="2"/></g>
+<text x="83.0" y="108.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14.0" font-weight="700" fill="#315b9b"><tspan x="83.0" dy="0.0">Weather context</tspan></text>
+<rect x="247.0" y="10.0" width="496.0" height="35.0" fill="none" stroke="#315b9b" stroke-width="1.5" stroke-dasharray="8 5"/>
+<text x="495.0" y="34.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18.0" font-weight="700" fill="#315b9b"><tspan x="495.0" dy="0.0">Evidence-guided Field Alerts</tspan></text>
+<rect x="247.0" y="58.0" width="118.8" height="62.0" fill="none" stroke="#315b9b" stroke-width="1.5" stroke-dasharray="7 4"/>
+<g transform="translate(257.0,77.0) scale(0.600)"><path d="M 0 0 C 0 -7 34 -7 34 0 L 34 31 C 34 38 0 38 0 31 Z" fill="#8fc4ee" stroke="#315b9b" stroke-width="2"/><ellipse cx="17" cy="0" rx="17" ry="7" fill="#7eb5e3" stroke="#315b9b" stroke-width="2"/><path d="M 0 15 C 0 22 34 22 34 15 M 0 30 C 0 37 34 37 34 30" fill="none" stroke="#315b9b" stroke-width="1.6"/></g>
+<text x="287.0" y="82.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.0" font-weight="700" fill="#315b9b"><tspan x="287.0" dy="0.0">Inputs and</tspan><tspan x="287.0" dy="16.0">Context</tspan></text>
+<path d="M 495.0 45.0 L 306.4 56.0" fill="none" stroke="#315b9b" stroke-width="1.2" stroke-linecap="round" marker-end="url(#arrow-blue)"/>
+<rect x="372.8" y="58.0" width="118.8" height="62.0" fill="none" stroke="#315b9b" stroke-width="1.5" stroke-dasharray="7 4"/>
+<g transform="translate(382.8,77.0) scale(0.600)"><circle cx="15" cy="15" r="12" fill="#d7ecff" stroke="#315b9b" stroke-width="2"/><path d="M 24 24 L 37 37" stroke="#7f4b2c" stroke-width="5" stroke-linecap="round"/><circle cx="15" cy="15" r="8" fill="#f3fbff" opacity=".8"/></g>
+<text x="412.8" y="82.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.0" font-weight="700" fill="#315b9b"><tspan x="412.8" dy="0.0">Quality</tspan><tspan x="412.8" dy="16.0">Screening</tspan></text>
+<path d="M 495.0 45.0 L 432.1 56.0" fill="none" stroke="#315b9b" stroke-width="1.2" stroke-linecap="round" marker-end="url(#arrow-blue)"/>
+<rect x="498.5" y="58.0" width="118.8" height="62.0" fill="none" stroke="#315b9b" stroke-width="1.5" stroke-dasharray="7 4"/>
+<g transform="translate(508.5,77.0) scale(0.600)"><path d="M 20 2 L 37 8 V 21 C 37 32 28 39 20 43 C 12 39 3 32 3 21 V 8 Z" fill="#eaf3ff" stroke="#315b9b" stroke-width="2"/><path d="M 11 21 L 17 27 L 29 14" fill="none" stroke="#315b9b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="538.5" y="82.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#315b9b"><tspan x="538.5" dy="0.0">Risk</tspan><tspan x="538.5" dy="16.0">Estimation</tspan></text>
+<path d="M 495.0 45.0 L 557.9 56.0" fill="none" stroke="#315b9b" stroke-width="1.2" stroke-linecap="round" marker-end="url(#arrow-blue)"/>
+<rect x="624.2" y="58.0" width="118.8" height="62.0" fill="none" stroke="#315b9b" stroke-width="1.5" stroke-dasharray="7 4"/>
+<g transform="translate(634.2,77.0) scale(0.600)"><path d="M 2 1 H 21 L 30 10 V 39 H 2 Z" fill="#ffffff" stroke="#ef7100" stroke-width="2"/><path d="M 21 1 V 10 H 30" fill="#e9edf2" stroke="#ef7100" stroke-width="2"/><path d="M 8 17 H 24 M 8 23 H 24 M 8 29 H 21" stroke="#ef7100" stroke-width="2"/></g>
+<text x="664.2" y="82.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.0" font-weight="700" fill="#315b9b"><tspan x="664.2" dy="0.0">Reviewed</tspan><tspan x="664.2" dy="16.0">Outputs</tspan></text>
+<path d="M 495.0 45.0 L 683.6 56.0" fill="none" stroke="#315b9b" stroke-width="1.2" stroke-linecap="round" marker-end="url(#arrow-blue)"/>
+<g transform="translate(767.0,16.0) scale(0.510)"><path d="M 2 1 H 21 L 30 10 V 39 H 2 Z" fill="#ffffff" stroke="#315b9b" stroke-width="2"/><path d="M 21 1 V 10 H 30" fill="#e9edf2" stroke="#315b9b" stroke-width="2"/><path d="M 8 17 H 24 M 8 23 H 24 M 8 29 H 21" stroke="#315b9b" stroke-width="2"/></g>
+<text x="807.0" y="31.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.2" font-weight="700" fill="#315b9b"><tspan x="807.0" dy="0.0">Workflow / decision</tspan></text>
+<g transform="translate(767.0,42.0) scale(0.510)"><path d="M 2 1 H 21 L 30 10 V 39 H 2 Z" fill="#ffffff" stroke="#4c8a37" stroke-width="2"/><path d="M 21 1 V 10 H 30" fill="#e9edf2" stroke="#4c8a37" stroke-width="2"/><path d="M 8 17 H 24 M 8 23 H 24 M 8 29 H 21" stroke="#4c8a37" stroke-width="2"/></g>
+<text x="807.0" y="57.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.2" font-weight="700" fill="#4c8a37"><tspan x="807.0" dy="0.0">Observed inputs</tspan></text>
+<g transform="translate(767.0,68.0) scale(0.510)"><path d="M 2 1 H 21 L 30 10 V 39 H 2 Z" fill="#ffffff" stroke="#ef7100" stroke-width="2"/><path d="M 21 1 V 10 H 30" fill="#e9edf2" stroke="#ef7100" stroke-width="2"/><path d="M 8 17 H 24 M 8 23 H 24 M 8 29 H 21" stroke="#ef7100" stroke-width="2"/></g>
+<text x="807.0" y="83.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.2" font-weight="700" fill="#ef7100"><tspan x="807.0" dy="0.0">Proposed outputs</tspan></text>
+<text x="503.5" y="144.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0" font-weight="700" fill="#243b63"><tspan x="503.5" dy="0.0">A synthetic monitoring workflow separates screening, estimation and reviewed outputs.</tspan></text>
+<rect x="16.0" y="168.0" width="238.5" height="406.0" fill="#f5f5f5" stroke="#dddddd" stroke-width="1.0"/>
+<rect x="16.0" y="168.0" width="238.5" height="33.0" fill="#315b9b" stroke="none" stroke-width="1.0"/>
+<text x="135.2" y="190.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0" font-weight="700" fill="#ffffff"><tspan x="135.2" dy="0.0">Inputs and Context</tspan></text>
+<text x="135.2" y="223.0" text-anchor="middle" font-family="Times New Roman" font-size="13.0" font-weight="400" fill="#777777">Signals to monitor</text>
+<rect x="261.5" y="168.0" width="238.5" height="406.0" fill="#f5f5f5" stroke="#dddddd" stroke-width="1.0"/>
+<rect x="261.5" y="168.0" width="238.5" height="33.0" fill="#315b9b" stroke="none" stroke-width="1.0"/>
+<text x="380.8" y="190.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0" font-weight="700" fill="#ffffff"><tspan x="380.8" dy="0.0">Quality Screening</tspan></text>
+<polygon points="238.5,170.0 257.5,170.0 274.5,184.5 257.5,199.0 238.5,199.0 255.5,184.5" fill="#cecece" stroke="#ffffff" stroke-width="1.4"/>
+<text x="380.8" y="223.0" text-anchor="middle" font-family="Times New Roman" font-size="13.0" font-weight="400" fill="#777777">Remove unusable records</text>
+<rect x="507.0" y="168.0" width="238.5" height="406.0" fill="#f5f5f5" stroke="#dddddd" stroke-width="1.0"/>
+<rect x="507.0" y="168.0" width="238.5" height="33.0" fill="#315b9b" stroke="none" stroke-width="1.0"/>
+<text x="626.2" y="190.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0" font-weight="700" fill="#ffffff"><tspan x="626.2" dy="0.0">Risk Estimation</tspan></text>
+<polygon points="484.0,170.0 503.0,170.0 520.0,184.5 503.0,199.0 484.0,199.0 501.0,184.5" fill="#cecece" stroke="#ffffff" stroke-width="1.4"/>
+<text x="626.2" y="223.0" text-anchor="middle" font-family="Times New Roman" font-size="13.0" font-weight="400" fill="#777777">Combine observations and context</text>
+<rect x="752.5" y="168.0" width="238.5" height="406.0" fill="#f5f5f5" stroke="#dddddd" stroke-width="1.0"/>
+<rect x="752.5" y="168.0" width="238.5" height="33.0" fill="#315b9b" stroke="none" stroke-width="1.0"/>
+<text x="871.8" y="190.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0" font-weight="700" fill="#ffffff"><tspan x="871.8" dy="0.0">Reviewed Outputs</tspan></text>
+<polygon points="729.5,170.0 748.5,170.0 765.5,184.5 748.5,199.0 729.5,199.0 746.5,184.5" fill="#cecece" stroke="#ffffff" stroke-width="1.4"/>
+<text x="871.8" y="223.0" text-anchor="middle" font-family="Times New Roman" font-size="13.0" font-weight="400" fill="#777777">Candidates require human review</text>
+<g id="edges" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path id="edge-0" data-from="observations" data-to="screen" data-relation="data" data-review-status="confirmed" data-source="Original synthetic example" d="M 242.5 278.0 L 273.5 394.0" fill="none" stroke="#5e5e5e" stroke-width="1.2" stroke-linecap="round" marker-end="url(#arrow-ref)"/>
+<path id="edge-1" data-from="flags" data-to="screen" data-relation="data" data-review-status="confirmed" data-source="Original synthetic example" d="M 242.5 394.0 L 273.5 394.0" fill="none" stroke="#5e5e5e" stroke-width="1.2" stroke-linecap="round" marker-end="url(#arrow-ref)"/>
+<path id="edge-2" data-from="screen" data-to="estimate" data-relation="data" data-review-status="confirmed" data-source="Original synthetic example" d="M 488.0 394.0 L 519.0 394.0" fill="none" stroke="#5e5e5e" stroke-width="1.2" stroke-linecap="round" marker-end="url(#arrow-ref)"/>
+<path id="edge-3" data-from="context" data-to="estimate" data-relation="data" data-review-status="confirmed" data-source="Original synthetic example" d="M 242.5 510.0 L 251.5 510.0 L 251.5 563.0 L 511.0 563.0 L 511.0 394.0 L 519.0 394.0" fill="none" stroke="#5e5e5e" stroke-width="1.2" stroke-linecap="round" marker-end="url(#arrow-ref)"/>
+<path id="edge-4" data-from="estimate" data-to="alert" data-relation="data" data-review-status="confirmed" data-source="Original synthetic example" d="M 733.5 394.0 L 764.5 278.0" fill="none" stroke="#5e5e5e" stroke-width="1.2" stroke-linecap="round" marker-end="url(#arrow-ref)"/>
+<path id="edge-5" data-from="estimate" data-to="review" data-relation="data" data-review-status="confirmed" data-source="Original synthetic example" d="M 733.5 394.0 L 764.5 394.0" fill="none" stroke="#5e5e5e" stroke-width="1.2" stroke-linecap="round" marker-end="url(#arrow-ref)"/>
+<path id="edge-6" data-from="review" data-to="record" data-relation="sequence" data-review-status="confirmed" data-source="Original synthetic example" d="M 764.5 394.0 L 757.5 394.0 L 757.5 510.0 L 764.5 510.0" fill="none" stroke="#5e5e5e" stroke-width="1.25" marker-end="url(#arrow-ref)"/>
+</g>
+<g id="node-observations" data-role="input" data-review-status="confirmed" data-source="Original synthetic example">
+<rect x="28.0" y="238.0" width="214.5" height="80.0" fill="#eef1f7" stroke="#315b9b" stroke-width="1.5" rx="9.0" stroke-dasharray="5 3"/>
+<g transform="translate(38.0,251.0) scale(0.650)"><path d="M 0 0 C 0 -7 34 -7 34 0 L 34 31 C 34 38 0 38 0 31 Z" fill="#8fc4ee" stroke="#315b9b" stroke-width="2"/><ellipse cx="17" cy="0" rx="17" ry="7" fill="#7eb5e3" stroke="#315b9b" stroke-width="2"/><path d="M 0 15 C 0 22 34 22 34 15 M 0 30 C 0 37 34 37 34 30" fill="none" stroke="#315b9b" stroke-width="1.6"/></g>
+<text x="73.0" y="261.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#315b9b"><tspan x="73.0" dy="0.0">Field observations</tspan></text>
+<text x="73.0" y="280.9" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.0" font-weight="400" fill="#5e5e5e"><tspan x="73.0" dy="0.0">temperature and moisture</tspan></text>
+<rect x="37.0" y="293.0" width="196.5" height="18.0" fill="#ffffff" stroke="#315b9b" stroke-width="0.7" rx="2.0"/>
+<text x="135.2" y="306.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.0" font-weight="400" fill="#315b9b"><tspan x="135.2" dy="0.0">Distributed sensors</tspan></text>
+<title>Original synthetic example</title></g>
+<g id="node-flags" data-role="evidence" data-review-status="confirmed" data-source="Original synthetic example">
+<rect x="28.0" y="354.0" width="214.5" height="80.0" fill="#edf5e8" stroke="#4c8a37" stroke-width="1.5" rx="9.0" stroke-dasharray="5 3"/>
+<g transform="translate(38.0,367.0) scale(0.650)"><path d="M 2 1 H 21 L 30 10 V 39 H 2 Z" fill="#ffffff" stroke="#4c8a37" stroke-width="2"/><path d="M 21 1 V 10 H 30" fill="#e9edf2" stroke="#4c8a37" stroke-width="2"/><path d="M 8 17 H 24 M 8 23 H 24 M 8 29 H 21" stroke="#4c8a37" stroke-width="2"/></g>
+<text x="73.0" y="377.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#4c8a37"><tspan x="73.0" dy="0.0">Quality flags</tspan></text>
+<text x="73.0" y="396.9" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.0" font-weight="400" fill="#5e5e5e"><tspan x="73.0" dy="0.0">missing-value indicators</tspan></text>
+<rect x="37.0" y="409.0" width="196.5" height="18.0" fill="#ffffff" stroke="#4c8a37" stroke-width="0.7" rx="2.0"/>
+<text x="135.2" y="422.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.0" font-weight="400" fill="#4c8a37"><tspan x="135.2" dy="0.0">Quality metadata</tspan></text>
+<title>Original synthetic example</title></g>
+<g id="node-context" data-role="context" data-review-status="confirmed" data-source="Original synthetic example">
+<rect x="28.0" y="470.0" width="214.5" height="80.0" fill="#eeeeee" stroke="#777777" stroke-width="1.5" rx="9.0" stroke-dasharray="5 3"/>
+<g transform="translate(38.0,483.0) scale(0.650)"><path d="M 7 28 L 20 9 L 37 25 L 7 28 M 20 9 L 37 25" fill="none" stroke="#777" stroke-width="2"/><circle cx="7" cy="28" r="5" fill="#abd7a0" stroke="#777777" stroke-width="2"/><circle cx="20" cy="9" r="5" fill="#f2d77f" stroke="#777777" stroke-width="2"/><circle cx="37" cy="25" r="5" fill="#f1a4a4" stroke="#777777" stroke-width="2"/></g>
+<text x="73.0" y="493.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#777777"><tspan x="73.0" dy="0.0">Weather context</tspan></text>
+<text x="73.0" y="512.9" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.0" font-weight="400" fill="#5e5e5e"><tspan x="73.0" dy="0.0">site-level covariates</tspan></text>
+<rect x="37.0" y="525.0" width="196.5" height="18.0" fill="#ffffff" stroke="#777777" stroke-width="0.7" rx="2.0"/>
+<text x="135.2" y="538.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.0" font-weight="400" fill="#777777"><tspan x="135.2" dy="0.0">Context only</tspan></text>
+<title>Original synthetic example</title></g>
+<rect x="277.5" y="236.0" width="98.8" height="73.0" fill="none" stroke="#243b63" stroke-width="1.2" rx="7.0" stroke-dasharray="4 3"/>
+<g transform="translate(316.9,242.0) scale(0.480)"><path d="M 0 0 C 0 -7 34 -7 34 0 L 34 31 C 34 38 0 38 0 31 Z" fill="#8fc4ee" stroke="#315b9b" stroke-width="2"/><ellipse cx="17" cy="0" rx="17" ry="7" fill="#7eb5e3" stroke="#315b9b" stroke-width="2"/><path d="M 0 15 C 0 22 34 22 34 15 M 0 30 C 0 37 34 37 34 30" fill="none" stroke="#315b9b" stroke-width="1.6"/></g>
+<text x="326.9" y="275.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="700" fill="#315b9b"><tspan x="326.9" dy="0.0">Field</tspan><tspan x="326.9" dy="12.0">observations</tspan></text>
+<text x="326.9" y="302.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9.0" font-weight="400" fill="#5e5e5e"><tspan x="326.9" dy="0.0">observations</tspan></text>
+<path d="M 326.9 309.0 L 380.8 343.0" fill="none" stroke="#5e5e5e" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 3" marker-end="url(#arrow-ref)"/>
+<rect x="385.2" y="236.0" width="98.8" height="73.0" fill="none" stroke="#243b63" stroke-width="1.2" rx="7.0" stroke-dasharray="4 3"/>
+<g transform="translate(424.6,242.0) scale(0.480)"><path d="M 2 1 H 21 L 30 10 V 39 H 2 Z" fill="#ffffff" stroke="#4c8a37" stroke-width="2"/><path d="M 21 1 V 10 H 30" fill="#e9edf2" stroke="#4c8a37" stroke-width="2"/><path d="M 8 17 H 24 M 8 23 H 24 M 8 29 H 21" stroke="#4c8a37" stroke-width="2"/></g>
+<text x="434.6" y="275.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="700" fill="#315b9b"><tspan x="434.6" dy="0.0">Quality flags</tspan></text>
+<text x="434.6" y="302.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9.0" font-weight="400" fill="#5e5e5e"><tspan x="434.6" dy="0.0">quality flags</tspan></text>
+<path d="M 434.6 309.0 L 380.8 343.0" fill="none" stroke="#5e5e5e" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 3" marker-end="url(#arrow-ref)"/>
+<g id="node-screen" data-role="process" data-review-status="confirmed" data-source="Original synthetic example">
+<rect x="273.5" y="347.0" width="214.5" height="94.0" fill="#eef1f7" stroke="#315b9b" stroke-width="1.5" rx="9.0" stroke-dasharray="5 3"/>
+<g transform="translate(283.5,360.0) scale(0.650)"><circle cx="15" cy="15" r="12" fill="#d7ecff" stroke="#315b9b" stroke-width="2"/><path d="M 24 24 L 37 37" stroke="#7f4b2c" stroke-width="5" stroke-linecap="round"/><circle cx="15" cy="15" r="8" fill="#f3fbff" opacity=".8"/></g>
+<text x="318.5" y="370.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#315b9b"><tspan x="318.5" dy="0.0">Quality screening</tspan></text>
+<text x="318.5" y="389.9" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.0" font-weight="400" fill="#5e5e5e"><tspan x="318.5" dy="0.0">retain usable observations</tspan></text>
+<rect x="282.5" y="416.0" width="196.5" height="18.0" fill="#ffffff" stroke="#315b9b" stroke-width="0.7" rx="2.0"/>
+<text x="380.8" y="429.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.0" font-weight="400" fill="#315b9b"><tspan x="380.8" dy="0.0">Apply quality criteria</tspan></text>
+<title>Original synthetic example</title></g>
+<path d="M 380.8 444.0 L 380.8 462.0" fill="none" stroke="#5e5e5e" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 3"/>
+<rect x="278.5" y="466.0" width="204.5" height="34.0" fill="none" stroke="#243b63" stroke-width="1.2" rx="8.0" stroke-dasharray="5 3"/>
+<text x="380.8" y="482.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.0" font-weight="400" fill="#315b9b"><tspan x="380.8" dy="0.0">screened input</tspan></text>
+<text x="380.8" y="517.0" text-anchor="middle" font-family="Times New Roman" font-size="10.5" font-weight="400" fill="#777777">See linked downstream panel</text>
+<rect x="523.0" y="236.0" width="98.8" height="73.0" fill="none" stroke="#243b63" stroke-width="1.2" rx="7.0" stroke-dasharray="4 3"/>
+<g transform="translate(562.4,242.0) scale(0.480)"><circle cx="15" cy="15" r="12" fill="#d7ecff" stroke="#315b9b" stroke-width="2"/><path d="M 24 24 L 37 37" stroke="#7f4b2c" stroke-width="5" stroke-linecap="round"/><circle cx="15" cy="15" r="8" fill="#f3fbff" opacity=".8"/></g>
+<text x="572.4" y="275.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="700" fill="#315b9b"><tspan x="572.4" dy="0.0">Quality</tspan><tspan x="572.4" dy="12.0">screening</tspan></text>
+<text x="572.4" y="302.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9.0" font-weight="400" fill="#5e5e5e"><tspan x="572.4" dy="0.0">screened input</tspan></text>
+<path d="M 572.4 309.0 L 626.2 343.0" fill="none" stroke="#5e5e5e" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 3" marker-end="url(#arrow-ref)"/>
+<rect x="630.8" y="236.0" width="98.8" height="73.0" fill="none" stroke="#243b63" stroke-width="1.2" rx="7.0" stroke-dasharray="4 3"/>
+<g transform="translate(670.1,242.0) scale(0.480)"><path d="M 7 28 L 20 9 L 37 25 L 7 28 M 20 9 L 37 25" fill="none" stroke="#777" stroke-width="2"/><circle cx="7" cy="28" r="5" fill="#abd7a0" stroke="#777777" stroke-width="2"/><circle cx="20" cy="9" r="5" fill="#f2d77f" stroke="#777777" stroke-width="2"/><circle cx="37" cy="25" r="5" fill="#f1a4a4" stroke="#777777" stroke-width="2"/></g>
+<text x="680.1" y="275.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="700" fill="#315b9b"><tspan x="680.1" dy="0.0">Weather context</tspan></text>
+<text x="680.1" y="302.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9.0" font-weight="400" fill="#5e5e5e"><tspan x="680.1" dy="0.0">covariates</tspan></text>
+<path d="M 680.1 309.0 L 626.2 343.0" fill="none" stroke="#5e5e5e" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 3" marker-end="url(#arrow-ref)"/>
+<g id="node-estimate" data-role="core" data-review-status="confirmed" data-source="Original synthetic example">
+<rect x="519.0" y="347.0" width="214.5" height="94.0" fill="#eef1f7" stroke="#315b9b" stroke-width="1.5" rx="9.0" stroke-dasharray="5 3"/>
+<g transform="translate(529.0,360.0) scale(0.650)"><path d="M 20 2 L 37 8 V 21 C 37 32 28 39 20 43 C 12 39 3 32 3 21 V 8 Z" fill="#eaf3ff" stroke="#315b9b" stroke-width="2"/><path d="M 11 21 L 17 27 L 29 14" fill="none" stroke="#315b9b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="564.0" y="370.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#315b9b"><tspan x="564.0" dy="0.0">Risk estimation</tspan></text>
+<text x="564.0" y="389.9" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.0" font-weight="400" fill="#5e5e5e"><tspan x="564.0" dy="0.0">hypothetical scoring model</tspan></text>
+<rect x="528.0" y="416.0" width="196.5" height="18.0" fill="#ffffff" stroke="#315b9b" stroke-width="0.7" rx="2.0"/>
+<text x="626.2" y="429.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.0" font-weight="400" fill="#315b9b"><tspan x="626.2" dy="0.0">Illustrative model only</tspan></text>
+<title>Original synthetic example</title></g>
+<path d="M 626.2 444.0 L 626.2 462.0" fill="none" stroke="#5e5e5e" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 3"/>
+<rect x="524.0" y="466.0" width="204.5" height="34.0" fill="none" stroke="#243b63" stroke-width="1.2" rx="8.0" stroke-dasharray="5 3"/>
+<text x="626.2" y="482.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.0" font-weight="400" fill="#315b9b"><tspan x="626.2" dy="0.0">threshold · score review</tspan></text>
+<text x="626.2" y="517.0" text-anchor="middle" font-family="Times New Roman" font-size="10.5" font-weight="400" fill="#777777">See linked downstream panel</text>
+<g id="node-alert" data-role="output" data-review-status="confirmed" data-source="Original synthetic example">
+<rect x="764.5" y="238.0" width="214.5" height="80.0" fill="#fff0db" stroke="#ef7100" stroke-width="1.5" rx="9.0" stroke-dasharray="5 3"/>
+<g transform="translate(774.5,251.0) scale(0.650)"><path d="M 2 1 H 21 L 30 10 V 39 H 2 Z" fill="#ffffff" stroke="#ef7100" stroke-width="2"/><path d="M 21 1 V 10 H 30" fill="#e9edf2" stroke="#ef7100" stroke-width="2"/><path d="M 8 17 H 24 M 8 23 H 24 M 8 29 H 21" stroke="#ef7100" stroke-width="2"/></g>
+<text x="809.5" y="261.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#ef7100"><tspan x="809.5" dy="0.0">Candidate alert</tspan></text>
+<text x="809.5" y="280.9" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.0" font-weight="400" fill="#5e5e5e"><tspan x="809.5" dy="0.0">apply a review threshold</tspan></text>
+<rect x="773.5" y="293.0" width="196.5" height="18.0" fill="#ffffff" stroke="#ef7100" stroke-width="0.7" rx="2.0"/>
+<text x="871.8" y="306.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.0" font-weight="400" fill="#ef7100"><tspan x="871.8" dy="0.0">Requires expert review</tspan></text>
+<title>Original synthetic example</title></g>
+<g id="node-review" data-role="output" data-review-status="confirmed" data-source="Original synthetic example">
+<rect x="764.5" y="354.0" width="214.5" height="80.0" fill="#fff0db" stroke="#ef7100" stroke-width="1.5" rx="9.0" stroke-dasharray="5 3"/>
+<g transform="translate(774.5,367.0) scale(0.650)"><path d="M 2 1 H 21 L 30 10 V 39 H 2 Z" fill="#ffffff" stroke="#ef7100" stroke-width="2"/><path d="M 21 1 V 10 H 30" fill="#e9edf2" stroke="#ef7100" stroke-width="2"/><path d="M 8 17 H 24 M 8 23 H 24 M 8 29 H 21" stroke="#ef7100" stroke-width="2"/></g>
+<text x="809.5" y="377.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#ef7100"><tspan x="809.5" dy="0.0">Reviewed decision</tspan></text>
+<text x="809.5" y="396.9" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.0" font-weight="400" fill="#5e5e5e"><tspan x="809.5" dy="0.0">record reviewer rationale</tspan></text>
+<rect x="773.5" y="409.0" width="196.5" height="18.0" fill="#ffffff" stroke="#ef7100" stroke-width="0.7" rx="2.0"/>
+<text x="871.8" y="422.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.0" font-weight="400" fill="#ef7100"><tspan x="871.8" dy="0.0">Human decision</tspan></text>
+<title>Original synthetic example</title></g>
+<g id="node-record" data-role="output" data-review-status="confirmed" data-source="Original synthetic example">
+<rect x="764.5" y="470.0" width="214.5" height="80.0" fill="#fff0db" stroke="#ef7100" stroke-width="1.5" rx="9.0" stroke-dasharray="5 3"/>
+<g transform="translate(774.5,483.0) scale(0.650)"><path d="M 2 1 H 21 L 30 10 V 39 H 2 Z" fill="#ffffff" stroke="#ef7100" stroke-width="2"/><path d="M 21 1 V 10 H 30" fill="#e9edf2" stroke="#ef7100" stroke-width="2"/><path d="M 8 17 H 24 M 8 23 H 24 M 8 29 H 21" stroke="#ef7100" stroke-width="2"/></g>
+<text x="809.5" y="493.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#ef7100"><tspan x="809.5" dy="0.0">Decision record</tspan></text>
+<text x="809.5" y="512.9" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.0" font-weight="400" fill="#5e5e5e"><tspan x="809.5" dy="0.0">archive the reviewed action</tspan></text>
+<rect x="773.5" y="525.0" width="196.5" height="18.0" fill="#ffffff" stroke="#ef7100" stroke-width="0.7" rx="2.0"/>
+<text x="871.8" y="538.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.0" font-weight="400" fill="#ef7100"><tspan x="871.8" dy="0.0">Traceable record</tspan></text>
+<title>Original synthetic example</title></g>
+<g id="edge-label-0" data-bbox="170.00,328.00,85.92,21.20"><rect x="170.00" y="328.00" width="85.92" height="21.20" rx="3" fill="#ffffff"/><text x="212.96" y="342.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#243b63"><tspan x="212.96" dy="0.00">observations</tspan></text></g>
+<g id="edge-label-1" data-bbox="170.00,436.00,89.22,21.20"><path d="M 242.50 394.00 L 242.50 436.00" stroke="#777777" stroke-width="0.8" stroke-dasharray="2 2" fill="none"/><rect x="170.00" y="436.00" width="89.22" height="21.20" rx="3" fill="#ffffff"/><text x="214.61" y="450.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#243b63"><tspan x="214.61" dy="0.00">quality flags</tspan></text></g>
+<g id="edge-label-2" data-bbox="458.00,316.00,95.38,21.20"><path d="M 505.69 394.00 L 505.69 337.20" stroke="#777777" stroke-width="0.8" stroke-dasharray="2 2" fill="none"/><rect x="458.00" y="316.00" width="95.38" height="21.20" rx="3" fill="#ffffff"/><text x="505.69" y="330.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#243b63"><tspan x="505.69" dy="0.00">screened input</tspan></text></g>
+<g id="edge-label-3" data-bbox="476.00,508.00,73.60,21.20"><rect x="476.00" y="508.00" width="73.60" height="21.20" rx="3" fill="#ffffff"/><text x="512.80" y="522.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#243b63"><tspan x="512.80" dy="0.00">covariates</tspan></text></g>
+<g id="edge-label-4" data-bbox="692.00,316.00,67.44,21.20"><rect x="692.00" y="316.00" width="67.44" height="21.20" rx="3" fill="#ffffff"/><text x="725.72" y="330.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#243b63"><tspan x="725.72" dy="0.00">threshold</tspan></text></g>
+<g id="edge-label-5" data-bbox="746.00,436.00,83.06,21.20"><path d="M 764.50 394.00 L 764.50 436.00" stroke="#777777" stroke-width="0.8" stroke-dasharray="2 2" fill="none"/><rect x="746.00" y="436.00" width="83.06" height="21.20" rx="3" fill="#ffffff"/><text x="787.53" y="450.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#243b63"><tspan x="787.53" dy="0.00">score review</tspan></text></g>
+<g id="edge-label-6" data-bbox="692.00,508.00,55.12,21.20"><path d="M 757.50 510.00 L 747.12 510.00" stroke="#777777" stroke-width="0.8" stroke-dasharray="2 2" fill="none"/><rect x="692.00" y="508.00" width="55.12" height="21.20" rx="3" fill="#ffffff"/><text x="719.56" y="522.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#243b63"><tspan x="719.56" dy="0.00">archive</tspan></text></g>
+<text x="8.0" y="597.0" text-anchor="start" font-family="Times New Roman" font-size="15.0" font-weight="400" fill="#111111"><tspan x="8.0" dy="0.0">Figure: A synthetic monitoring architecture. Observations and quality flags enter screening; screened inputs and contextual</tspan><tspan x="8.0" dy="18.3">covariates feed risk estimation. Candidate alerts and reviewed decisions remain distinct, and reviewer rationale is</tspan><tspan x="8.0" dy="18.3">archived. This is an illustrative software example, not an empirical result.</tspan></text>
+</svg>

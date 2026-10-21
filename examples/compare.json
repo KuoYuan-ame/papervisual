@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "title": "Reviewing Two Inspection Designs",
+  "claim": "A synthetic comparison separates standard inspection from assisted inspection.",
+  "archetype": "auto",
+  "width": 1200,
+  "height": 600,
+  "nodes": [
+    {
+      "id": "standard_input",
+      "label": "Standard inspection",
+      "role": "input",
+      "group": "baseline",
+      "order": 1,
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "standard_review",
+      "label": "Manual review",
+      "role": "process",
+      "group": "baseline",
+      "order": 2,
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "assisted_input",
+      "label": "Assisted inspection",
+      "role": "input",
+      "group": "proposed",
+      "order": 1,
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "id": "assisted_review",
+      "label": "Assisted review",
+      "role": "process",
+      "group": "proposed",
+      "order": 2,
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    }
+  ],
+  "edges": [
+    {
+      "from": "standard_input",
+      "to": "standard_review",
+      "relation": "sequence",
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "from": "assisted_input",
+      "to": "assisted_review",
+      "relation": "sequence",
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    },
+    {
+      "from": "standard_review",
+      "to": "assisted_review",
+      "relation": "contrast",
+      "label": "compare designs",
+      "source": "Synthetic design brief",
+      "review_status": "confirmed"
+    }
+  ],
+  "notes": [
+    "No accuracy or superiority claim is made."
+  ],
+  "claim_source": "Original synthetic example; illustrative software fixture",
+  "review_status": "confirmed"
+}
