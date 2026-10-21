@@ -14,3 +14,20 @@ work/
 
 # Keep locally exported PDFs out of the public repository.
 examples/rendered/*.pdf
+
+# Private local files and generated diagnostics
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.bundle
+*.log
+*.pdf
+*.docx
+*.tex
+*.zip
+/doctor.json
+/figure-brief.draft.json
